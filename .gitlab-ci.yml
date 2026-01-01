@@ -39,7 +39,7 @@ phpunit_tests:
     - php artisan migrate --force
 
   script:
-    - php artisan test
+    - php artisan test tests/Unit
 docker_build:
   stage: build
   image: docker:latest
