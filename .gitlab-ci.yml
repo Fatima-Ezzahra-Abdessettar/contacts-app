@@ -2,7 +2,6 @@ stages:
   - lint
   - test
   - build
-  - deploy
 php_lint:
   stage: lint
   image: php:8.4-cli
